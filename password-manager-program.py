@@ -5,6 +5,7 @@ def write_key():
     with open("key.key", "wb") as key_file:
         key_file.write(key)     
 '''
+
 def load_key():
     file = open("key.key", "rb")
     key = file.read()
